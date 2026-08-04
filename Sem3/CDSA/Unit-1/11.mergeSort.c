@@ -22,8 +22,8 @@ void merge(int a[],int m,int b[],int n,int ans[],int size){
     return;
 }
 void mergeSort(int arr[],int n){
-    int size = (sizeof(arr))/sizeof(arr[0]);
-    if((size<2) return;
+    int size = n;
+    if(size<2) return;
     int mid = size/2;
     int a[mid],b[size-mid];
     for(int i =0;i<size;i++){
